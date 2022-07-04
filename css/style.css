@@ -1,0 +1,116 @@
+ #home, #bio{
+    height: 100vh;
+} 
+
+#missao{
+    height: auto;
+}
+
+#especialidades{
+    height: auto;
+    background-color: #D6D6D6;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+	background-color: #001D3D;
+	width: 100vw;
+	height: auto;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 10%;
+}
+header .overlay{
+	width: 100vw;
+	height: 120px;
+}
+
+.titulo{
+    height: 70%;
+}
+
+.tit{
+    color: white;
+    font-family: 'IM Fell Great Primer SC';
+    position: relative;
+}
+.tit::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    bottom: -10px;
+}
+.titesp{
+    color: black;
+    font-family: 'IM Fell Great Primer SC';
+}
+
+.uk-card{
+    gap: 10px;
+}
+
+i{
+    color: black;
+    font-size: 3rem;
+}
+
+footer{
+    height: 50px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    gap: 30px;
+}
+
+.fa-scale-balanced{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+}
+
+.biotit{
+    color: yellow;
+    font-family: 'IM Fell Great Primer SC';
+}
+
+.desc{
+    font-size: 2rem;
+    color: white;
+}
+
+.sub{
+    color: white;
+    font-family: 'IM Fell Great Primer SC';
+}
+
+.apre{
+    color: rgb(212, 212, 212);
+}
+
+.whats-icon{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+}
+
+.fa-whatsapp{
+    color: rgb(0, 228, 0);
+}

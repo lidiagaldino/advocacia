@@ -58,10 +58,6 @@ header .overlay{
     height: 2px;
     bottom: -10px;
 }
-.titesp{
-    color: black;
-    font-family: 'IM Fell Great Primer SC';
-}
 
 .uk-card{
     gap: 10px;
@@ -91,19 +87,9 @@ footer{
     font-size: 4rem;
 }
 
-.biotit{
-    color: yellow;
-    font-family: 'IM Fell Great Primer SC';
-}
-
 .desc{
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
-}
-
-.sub{
-    color: white;
-    font-family: 'IM Fell Great Primer SC';
 }
 
 .apre{
@@ -121,4 +107,22 @@ footer{
 
 .fa-whatsapp{
     color: rgb(0, 228, 0);
+}
+
+@media (max-width: 930px){
+    #bio{
+        height: 40vh;
+    }
+}
+
+@media (max-width: 720px){
+    #bio{
+        height: 60vh;
+    }
+}
+
+@media (min-height: 800px){
+    #bio{
+        height: 50vh;
+    }
 }

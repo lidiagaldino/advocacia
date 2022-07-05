@@ -1,6 +1,10 @@
- #home, #bio{
+#bio{
     height: 100vh;
 } 
+
+#home{
+    height: 75vh;
+}
 
 #missao{
     height: auto;
@@ -8,7 +12,11 @@
 
 #especialidades{
     height: auto;
-    background-color: #D6D6D6;
+    background-color: #202020;
+}
+
+.card{
+    padding-top: 50px;
 }
 
 body{
@@ -22,7 +30,7 @@ body{
 }
 
 header {
-	background-color: #001D3D;
+	background-color: #0f0f0f;
 	width: 100vw;
 	height: auto;
 	overflow: hidden;
@@ -30,7 +38,7 @@ header {
 }
 header .overlay{
 	width: 100vw;
-	height: 120px;
+	height: 150px;
 }
 
 .titulo{

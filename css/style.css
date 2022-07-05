@@ -121,8 +121,13 @@ footer{
     }
 }
 
-@media (min-height: 800px){
+@media (max-width: 450px){
     #bio{
-        height: 50vh;
+        height: 80vh;
+    }
+    .tit{
+        font-size: 1.4rem;
     }
 }
+
+

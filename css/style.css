@@ -113,23 +113,26 @@ footer{
     width: 350px;
 }
 
-/* @media (max-width: 930px){
-    #bio{
-        height: 50vh;
-    }
+.map-contain{
+    width: 100vw;
+    height: 10%;
 }
 
-@media (max-width: 720px){
-    #bio{
-        height: 70vh;
-    }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56%;
+    position:relative;
+    height: 0;
+    width: 60%;
 }
 
-@media (min-height: 800px){
-    #bio{
-        height: 50vh;
-    }
-} */
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:100%;
+    position:absolute;
+}
 
 @media (max-width: 450px){
     .tit{
